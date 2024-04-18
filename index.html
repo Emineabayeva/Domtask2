@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./text.css">
+    <title>Document</title>
+</head>
+<body> 
+    <h1>Register</h1>
+    <form action="" id="form">
+        <label for="name" >Name</label>
+        <input type="text" placeholder="name" id="name">
+        <label for="surname">Surname</label>
+        <input type="text" placeholder="surname" id="surname">
+        <label for="age">Age</label>
+        <input type="number" placeholder="age" id="age">
+        <label for="nationality">Nationality:</label>
+        <select class="form-control" id="nationality" required>
+          <option value="Azerbaijan">Azerbaijan</option>
+          <option value="Russia">Russia</option>
+          <option value="Turkey">Turkey</option>
+          <option value="Georgia">Georgia</option>
+        </select>
+        <label for="position">Position:</label>
+        <select class="form-control" id="position" required>
+          <option value="Frontend Developer">Frontend Developer</option>
+          <option value="Backend Developer">Backend Developer</option>
+        </select>
+        <label for="experience">Experience:</label>
+        <input type="text" placeholder="experience" id="experience" >
+        <button type="submit" class="btn">Add Employee</button>
+    </form>
+
+    
+
+
+    <script src="./text.js"></script>
+</body>
+</html>
